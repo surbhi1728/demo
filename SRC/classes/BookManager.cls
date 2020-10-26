@@ -6,7 +6,7 @@ global class BookManager{
         insert book;
         return book;
     }
-    
+    //hello
     @httpGet
     global static Book__c doGetBook(){
         Book__c book = new Book__c();
