@@ -15,6 +15,7 @@ global class BookManager{
         book = [SELECT id, Name, Price__c from Book__c where Id =: bookId];
         return book;
     }
+	//hello
 	//class test
     
     global class BooksInfo{
