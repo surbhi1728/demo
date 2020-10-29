@@ -18,7 +18,7 @@
             System.assert(controller.getIsEdit() == true);
             controller.cancel();
             System.assert(controller.getIsEdit() == false);
-            
+            //welcome
             System.assert(Page.ChangePassword.getUrl().equals(controller.changePassword().getUrl()));
             
             String randFax = Math.rint(Math.random() * 1000) + '5551234';
