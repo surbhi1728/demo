@@ -16,7 +16,7 @@ global class BookManager{
         return book;
     }
 	//hello
-	//class test12345
+	//class sample
     
     global class BooksInfo{
         Book__c book {get; set;}
